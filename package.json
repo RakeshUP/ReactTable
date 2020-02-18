@@ -1,0 +1,9 @@
+{
+  "name": "csv-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rm -rf ./server/build && cd client && yarn build && mv build ../server && cd ../server && yarn runServer"
+  }
+}

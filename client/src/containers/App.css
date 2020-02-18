@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+table {
+  margin: 2vh auto;
+}
+
+td {
+  border: 1px solid #333;
+}
+
+label {
+  padding-left: 2vw;
+}
+
+.filter {
+  padding-top: 2vh;
+}

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the table according to snapshot 1`] = `
+<div
+  class="App"
+>
+  <form
+    class="form"
+  >
+    <div>
+      <label
+        for="file"
+      >
+        Choose file to upload: 
+      </label>
+      <input
+        accept=".txt"
+        id="file"
+        name="file"
+        type="file"
+      />
+    </div>
+    <div>
+      <button
+        id="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+  <div
+    class="filter"
+  >
+    <label
+      for="delimiter"
+    >
+      Delimiter:
+    </label>
+    <input
+      id="delimiter"
+      name="delimiter"
+      type="text"
+      value="|"
+    />
+    <label
+      for="lines"
+    >
+      Lines:
+    </label>
+    <input
+      id="lines"
+      name="lines"
+      type="text"
+      value="2"
+    />
+  </div>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          Jim Smith
+        </td>
+        <td>
+          123 Any Street
+        </td>
+        <td>
+          Boston
+        </td>
+        <td>
+          US
+        </td>
+        <td>
+          02134
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Jane Lee 
+        </td>
+        <td>
+           248 Another St.
+        </td>
+        <td>
+           Boston 
+        </td>
+        <td>
+           US 
+        </td>
+        <td>
+           02130
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
